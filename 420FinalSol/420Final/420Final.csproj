@@ -162,6 +162,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\Q2_3Controller.cs" />
     <Compile Include="Controllers\Query1Controller.cs" />
     <Compile Include="COVID.Context.cs">
       <AutoGen>True</AutoGen>
@@ -216,6 +217,7 @@
     <Content Include="Global.asax" />
     <Content Include="Index.css" />
     <Content Include="Index.html" />
+    <Content Include="Scripts\App2.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
