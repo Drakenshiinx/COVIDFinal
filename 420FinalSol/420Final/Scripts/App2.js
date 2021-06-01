@@ -1,11 +1,11 @@
-﻿document.addEventListener("DOMContentLoaded", function (event) {
+﻿////document.addEventListener("DOMContentLoaded", function (event) {
 
-    document.getElementById("nursinghomes").addEventListener("click", function () {
-        GetShowDataQuery2();
-        GetShowDataQuery3();
-    });
+////    document.getElementById("nursinghomes").addEventListener("click", function () {
+////        GetShowDataQuery2();
+////        GetShowDataQuery3();
+////    });
 
-});
+////});
 function GetShowDataQuery2() {
     $.getJSON("api/final/query2")
         .done(function (data) {
