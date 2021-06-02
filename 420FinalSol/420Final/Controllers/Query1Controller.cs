@@ -26,8 +26,8 @@ namespace _420Final.Controllers
                                     Towns.Date,
                                     NursingHome.NursingHome,
                                     NursingHome.TownName,
-                                    NursingHome.COVIDDeath,
-                                    Towns.ConfirmedCOVIDDeaths,
+                                    //NursingHome.COVIDDeath,
+                                    //Towns.ConfirmedCOVIDDeaths,
                                     NursingHome.COVIDPositive,
                                     Towns.TestPositive
                                 }).Distinct();

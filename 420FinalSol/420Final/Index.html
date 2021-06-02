@@ -5,7 +5,7 @@
     <title></title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Index.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
     <script type="text/javascript" src="Scripts/Query1.js"></script>
     <script type="text/javascript" src="Scripts/App2.js"></script>
@@ -18,14 +18,14 @@
         <!--<select name="nursingHomeSelect" id="nursinghomedropdown">Select NursingHome</select>-->
         <input type="button" value="Get June 19 tests" onclick="GetShowDataQuery1()" />
         <!--<p><span id="numberByCity"></span></p>-->
-        <table id="table1">
+        <table class="content-table" id="table1">
             <thead>
                 <tr>
                     <th>Date</th>
                     <th>NursingHome</th>
                     <th>Town Name</th>
-                    <th>Covid Deaths (Nursing Home)</th>
-                    <th>Covid Deaths (Town)</th>
+                    <!--<th>Covid Deaths (Nursing Home)</th>
+                    <th>Covid Deaths (Town)</th>-->
                     <th>Covid Positive (Nursing Home)</th>
                     <th>Covid Positive (Town)</th>
 
@@ -39,7 +39,7 @@
         <h2> How many totals of deaths occurs in Hamden on June 11, 2020, in whole Town compared to total deaths number in Nursing homes in the same town on the same date? </h2>
         <h3> Will show the total amount deaths in Hamden on June 11, 2020 compared to Nursing homes' death in Hamden:</h3>
         <input type="button" value="Get Hamden June 11 deaths" onclick="GetShowDataQuery2()" />
-        <table id="table2">
+        <table class="content-table" id="table2">
             <thead>
                 <tr>
                     <th>Date</th>
@@ -57,7 +57,7 @@
         <h3> Will show the list of all the nursing homes between May 1st, 2020, and May 31st, 2020 with more than 50 Positive COVID tests :</h3>
         <input type="button" id="nursinghomes" value="Get Nursing Homes May Covid Positive" onclick="GetShowDataQuery3()" />
         <!--<ul id="nursinghome50" />-->
-        <table id="table3">
+        <table class="content-table" id="table3">
             <thead>
                 <tr>
                     <th>Date</th>
